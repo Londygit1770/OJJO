@@ -1,0 +1,627 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+  text-decoration: none;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  width: 60%;
+  max-width: 1920;
+  margin: 0 auto;
+}
+
+header {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  height: 100px;
+}
+header .menu-btn {
+  z-index: 4;
+}
+header a {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.header {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.header .search-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header .search-text img {
+  margin-right: 10px;
+}
+.header .logy {
+  display: flex;
+  width: 20%;
+}
+.header .logy .logo {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+.header .pat-nav {
+  display: flex;
+  width: 20%;
+}
+
+.nav-one, .nav-two {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+}
+.nav-one .search, .nav-two .search {
+  display: flex;
+}
+
+.one-section {
+  background-image: url(../img/bgc.svg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 800px;
+}
+.one-section .center {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  height: 800px;
+  box-sizing: border-box;
+}
+.one-section .center h2 {
+  font-size: 36px;
+  font-weight: 700;
+  padding: 30px;
+}
+.one-section .center .button {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  transition: 0.5s linear;
+  min-width: 150px;
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 261px;
+  overflow: hidden;
+}
+.one-section .center .button:hover {
+  border: 1px solid white;
+  box-shadow: 1px 1px 40px #ffffff;
+}
+.one-section .center a {
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+.one-section .bottom {
+  display: flex;
+  height: 120px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.one-section .bottom .coco, .one-section .bottom .coco-last {
+  border-left: 1px solid white;
+}
+.one-section .bottom a {
+  padding: 0 20px;
+}
+
+.two-section .text {
+  text-align: center;
+  margin-top: 40px;
+}
+.two-section .text h2, .two-section .text p {
+  color: black;
+}
+.two-section .div-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+  border-collapse: collapse;
+  flex-wrap: wrap;
+}
+.two-section .div-card .card {
+  padding: 10px 0;
+  width: 165px;
+  height: 50px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-collapse: collapse;
+  margin: 0 10px;
+}
+.two-section .div-card .card a {
+  color: #333333;
+  border: 1px solid #333333;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.4s ease-in-out;
+}
+.two-section .div-card .card a:hover {
+  transform: translate(-10px, -10px);
+  color: rgb(255, 255, 255);
+  background-color: #333333;
+}
+.two-section .card-logo {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  flex-wrap: wrap;
+  height: 600px;
+}
+.two-section .card-logo .tovar {
+  transition: 0.6s;
+  display: block;
+  margin: 20px 0;
+  width: 30%;
+  width: 300px;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.two-section .card-logo .tovar:hover {
+  transform: scale(1.09);
+}
+.two-section .card-logo .tvOne {
+  background-image: url(../img/1.svg);
+}
+.two-section .card-logo .tvtwo {
+  background-image: url(../img/2.svg);
+}
+.two-section .card-logo .tvthree {
+  background-image: url(../img/3.svg);
+}
+.two-section .card-logo .tvfour {
+  background-image: url(../img/4.svg);
+}
+.two-section .card-logo .tvfive {
+  background-image: url(../img/5.svg);
+}
+.two-section .card-logo .tvsix {
+  background-image: url(../img/6.svg);
+}
+
+.three-section {
+  height: 500px;
+  background-image: url(../img/Rectangle\ 6.svg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+.three-section .content-ts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 70%;
+  margin: 0 auto;
+  justify-content: space-evenly;
+}
+.three-section .content-ts p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+}
+.three-section .content-ts h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 41px;
+}
+.three-section .content-ts a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: #333333;
+  width: 200px;
+  height: 40px;
+  transition: 0.5s linear;
+}
+.three-section .content-ts a:hover {
+  box-shadow: 1px 1px 40px white;
+}
+
+.four-section {
+  text-align: center;
+  height: 600px;
+}
+.four-section p, .four-section h3 {
+  color: #333333;
+}
+.four-section .container {
+  width: 80%;
+  height: 100%;
+}
+.four-section .container .content-fs {
+  display: flex;
+  margin-top: 10px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+}
+.four-section .container .content-fs .threeCon {
+  transition: 1s;
+  animation: show 3s linear infinite;
+}
+.four-section .container .content-fs .threeCon:hover {
+  animation: show 0.5s;
+  transform: scale(1.05);
+}
+@keyframes show {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.05);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  75% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.four-section .container .content-fs .twoCon {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.four-section .container .content-fs .twoCon .btTC {
+  transition: 0.5s;
+  display: flex;
+  align-items: center;
+  width: 30%;
+  justify-content: center;
+  color: white;
+  font-weight: 700;
+  background-size: cover;
+  background-position: center;
+  height: 370px;
+}
+.four-section .container .content-fs .twoCon a {
+  color: #333333;
+}
+.four-section .container .content-fs .twoCon .BTONE {
+  background-image: url(../img/blog__item1.svg);
+}
+.four-section .container .content-fs .twoCon .BTTWO {
+  background-image: url(../img/blog__item2.svg);
+}
+.four-section .container .content-fs .twoCon .BTTHREE {
+  background-image: url(../img/blog__item3.svg);
+}
+.four-section .container .content-fs .btTC:hover {
+  transform: scale(1.03);
+}
+
+.five-section {
+  text-align: center;
+}
+.five-section mb .container {
+  width: 80%;
+}
+.five-section .tefs {
+  margin-top: 20px;
+}
+.five-section p, .five-section h3 {
+  color: #333333;
+  margin: 10px 0;
+}
+.five-section .contentfives {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.five-section .contentfives .conone {
+  position: relative;
+}
+.five-section .contentfives .conone .bt {
+  position: absolute;
+  top: calc(50% - 25px);
+  right: calc(50% - 25px);
+  background-color: rgba(76, 175, 79, 0); /* Green */
+  cursor: pointer;
+}
+.five-section .contentfives .conone .play {
+  max-width: 50px;
+}
+.five-section .contentfives .contwo {
+  position: relative;
+}
+.five-section .contentfives .contwo img {
+  width: 50%;
+}
+.five-section .contentfives .content {
+  margin: 0 auto;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+}
+.five-section .contentfives .content img {
+  min-width: 100%;
+  height: 100%;
+}
+
+.six-section {
+  height: 400px;
+  background-image: url(../img/Rectangle\ 6.svg);
+}
+.six-section .container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.six-section .titless {
+  text-align: center;
+  padding: 30px 0;
+}
+.six-section .but {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+.six-section .but .leftbut {
+  width: 40%;
+}
+.six-section .but .leftbut .butleft {
+  display: flex;
+  align-items: center;
+}
+.six-section .but .leftbut .butleft a {
+  display: flex;
+  align-items: center;
+}
+.six-section .but .leftbut .butleft p {
+  padding-left: 10px;
+}
+.six-section .but .rightbut {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-left: 1px solid rgb(255, 255, 255);
+}
+.six-section .but .rightbut .inputblock {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  margin: 10px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.six-section .but .rightbut .inputblock .input {
+  width: 60%;
+  height: 40%;
+  outline: none;
+  border: 1px solid #D6D6D6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.six-section .but .rightbut .inputblock .input input {
+  padding-left: 10px;
+  color: rgba(51, 51, 51, 0.5);
+  width: 100%;
+  height: 100%;
+}
+.six-section .but .rightbut .inputblock .but-right {
+  width: 30%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background: #333333;
+  height: 40%;
+}
+.six-section .but .rightbut .inputblock .but-right .ain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: #FFFFFF;
+  background-color: #333333;
+}
+
+.footer {
+  padding-top: 20px;
+}
+.footer .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 100%;
+}
+.footer .container .botcont {
+  border-top: 1px solid rgba(0, 0, 0, 0.418);
+  display: flex;
+  justify-content: space-around;
+  height: 20%;
+  width: 100%;
+}
+.footer .container .botcont a {
+  width: 25%;
+  font-size: 12px;
+  height: 100%;
+  color: #333333;
+}
+.footer .container .topcont {
+  display: flex;
+  height: 50%;
+  width: 100%;
+}
+.footer .container .topcont .content {
+  width: 25%;
+  height: 100%;
+}
+.footer .container .topcont .content .row {
+  padding: 5px 0;
+  display: flex;
+}
+.footer .container .topcont .content .row img, .footer .container .topcont .content .row a {
+  margin-left: 10px;
+}
+.footer .container .topcont .content .social {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin-top: 15px;
+  text-align: center;
+}
+.footer .container .topcont .content .oplata {
+  margin-top: 15px;
+  width: 40%;
+  display: flex;
+}
+.footer .container .topcont .content p, .footer .container .topcont .content h4, .footer .container .topcont .content a {
+  color: #333333;
+  text-transform: uppercase;
+  transition: 0.2s;
+}
+.footer .container .topcont .content a:hover {
+  color: black;
+}
+.footer .container .topcont .content h4 {
+  width: 90%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.418);
+  margin-bottom: 10px;
+}
+.footer .container .topcont .content .opl {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.burger-menu {
+  position: absolute;
+}
+
+.menu {
+  position: absolute;
+  z-index: 3;
+}
+.menu .bgtwo {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  opacity: 0.5;
+  background: #000000;
+}
+.menu .menu-blocktwo {
+  position: fixed;
+  transition: 1s;
+  width: 250px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #333333;
+  transform: translateX(0);
+}
+.menu .menu-block {
+  position: fixed;
+  top: 0%;
+  transition: 1s;
+  width: 250px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #333333;
+  transform: translateX(-250px);
+}
+.menu .mar {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.menu .logy {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px 0;
+}
+.menu .logy .logo img {
+  width: 150px;
+}
+.menu .pat-nav .nav-one, .menu .pat-nav .nav-two {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 80%;
+  margin: 0 auto;
+}
+.menu .pat-nav .nav-one .search-text img, .menu .pat-nav .nav-two .search-text img {
+  margin-right: 10px;
+}
+.menu .pat-nav .nav-one a, .menu .pat-nav .nav-two a {
+  padding: 5px 0;
+  font-size: 20px;
+}
+
+.menu-btn {
+  display: none;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  z-index: 5;
+  height: 40px;
+  width: 40px;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.menu-btn .line {
+  transition: 0.5s;
+  width: 40px;
+  height: 8px;
+  background-color: #ffffff;
+}
+.menu-btn .rotatefree {
+  transition: 0.5s;
+  transform: rotate(90deg) translateX(16px);
+}
+.menu-btn .rotatefree:last-child {
+  transform: rotate(90deg) translateX(-16px);
+}/*# sourceMappingURL=Style.css.map */

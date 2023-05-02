@@ -1,0 +1,233 @@
+@media screen and (max-width: 1800px) {
+  .header{
+  .pat-nav{
+    width: 30%;
+  }
+}
+}
+@media screen and (max-width: 1200px) {
+.menu-btn{ display: block; display: flex;}
+
+
+
+  .footer{.container{.topcont{
+    justify-content: center;
+    flex-wrap: wrap;
+     width: 100%;
+     .content{width: 45%;
+      height: 100%;
+      padding: 10px;
+    }}}}
+  .six-section{
+    .container{
+      width: 100%;
+    }
+  }
+  .header{
+    .logy{
+      width: 33%;}
+  .pat-nav{
+    display: none;
+  }
+}
+.two-section{
+  .container{
+    width: 100%;
+    .div-card{
+      width: 80%;
+      margin: 0 auto;
+    }
+  }
+}
+}
+@media screen and (max-width: 950px) {
+  .header{
+  flex-wrap: wrap;
+  .pat{
+    order: 2;
+  }
+  .logy,.pat-nav{
+    padding: 10px 0;
+  }
+.logy{
+  width: 60%;
+}
+  .pat-nav{
+    .nav-one, .nav-two{
+         width: 100%;
+    }
+  }
+  }}
+  @media screen and (max-width: 800px) {
+
+    .six-section{
+      .container{
+        .but{
+          width: 90%;
+          justify-content: center;
+          .rightbut{
+            width: 50%;
+            .ain{
+              
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 700px) {
+    .six-section{.but{ .leftbut{
+      width: 60%;}}}
+    .six-section{
+      .container{
+        width: 80%;
+        align-items: start;
+      .titless{text-align: start;}
+      .but{
+        display: block;
+        width: 100%;
+        .rightbut{
+          height: 40px;width: 80%;
+          padding-top: 20px;
+          border:none;
+          .but-right{height: 60%;}
+          .input{
+            input{
+              font-size: 12px;
+            }
+            height: 60%;
+          }
+    }
+      }
+    }
+    }
+.header{
+  display: flex;
+  .pat{
+    order: 1;
+  }
+
+  .logy,.pat-nav{
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+.two-section{
+  .container{
+    width: 100%;
+    
+  }
+}
+.three-section{
+  .content-ts{
+    width: 90%;
+    h2{
+      font-size: 25px;
+    }
+    p{font-size: 16px;}
+    justify-content: center ;
+    .mar{
+      margin: 10px 0;
+    }
+  }
+}
+.four-section{
+  height: 800px;
+  .container{
+width: 100%;
+.content-fs{
+.twoCon{
+  justify-content: center;
+  flex-wrap: wrap;
+  .btTC{
+    width: 90%;
+    margin: 10px 0;
+    height: 200px; 
+    font-size: 18px;
+  }
+  .btTC:hover{
+    transform: none;
+  }}}
+}
+}
+.five-section{
+  .container  {
+    width: 100%;
+  }
+}
+  }
+  @media screen and (max-width: 600px) {
+    .footer .container .botcont a{
+      font-size: 10px;
+    }
+    .footer{
+      .container{
+        width: 100%;
+        .botcont{
+          height: 30%;
+          flex-wrap: wrap;
+          .abotcont{
+            padding: 0 5px;
+          }
+        }
+      }
+      .topcont{
+        h4{
+        font-size: 14px;
+        }
+        p,a{
+          font-size: 13px;
+        }
+        .opl,.row img{
+          transform: scale(0.9);
+        }
+        
+      }
+    }
+    
+    .two-section{ .card-logo{
+      height: 900px;
+      .tovar{
+        align-items: center;
+        width: 80%;
+        min-width: 0px;
+        margin: 10px 0;
+        transition: 0s; 
+      }
+      .tovar:hover{
+        transform: none;
+    
+      }
+    }
+  }}
+
+  @media screen and (max-width: 462px) {
+    .six-section .but .leftbut{
+      width: 100%;
+    }
+    .footer .container .topcont .content{
+      width: 90%;
+    }
+    .six-section{ .container{.but{ .rightbut{width: 100%;a{
+      font-size: 12px;
+    }}}}}
+
+    .header{
+        .logy,.pat-nav{
+         width: 100%;
+      }}
+      .two-section{
+        
+      
+      .div-card{
+        width: 100%;
+        .card{
+          min-width:270px;
+        }
+      
+    }
+  }
+}
+@media screen and (max-width: 380px) {.six-section .but .rightbut .inputblock .but-right .ain{font-size: 10px;}}
+  
